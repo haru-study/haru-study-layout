@@ -2,6 +2,10 @@
 
 하루스터디에서 사용하는 공용 컴포넌트에 대한 라이브러리입니다.
 
+## npm 바로가기
+
+[https://www.npmjs.com/package/haru-study-layout](https://www.npmjs.com/package/haru-study-layout)
+
 ## Accordion
 
 ### 사용예시
