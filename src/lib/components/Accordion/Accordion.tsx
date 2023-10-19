@@ -7,6 +7,7 @@ import AccordionHeader from './AccordionHeader';
 import AccordionItem from './AccordionItem';
 import AccordionPanel from './AccordionPanel';
 import { AccordionProvider } from './AccordionContext';
+import AccordionSkeleton from './AccordionSkeleton';
 
 type Props = {
   $style?: CSSProp;
@@ -27,6 +28,7 @@ export default Accordion;
 Accordion.Header = AccordionHeader;
 Accordion.Panel = AccordionPanel;
 Accordion.Item = AccordionItem;
+Accordion.Skeleton = AccordionSkeleton;
 
 const AccordionLayout = styled.ul<Props>`
   display: grid;
